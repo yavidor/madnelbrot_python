@@ -45,6 +45,6 @@ while finish:
             finish = False
     px_array[:] = mandelbrot(px_array, n)
     pygame.display.flip()
-    pygame.image.save(screen, f'pics/iteration{n}.jpeg')
+    pygame.image.save(screen, f'./pics/iteration{n}.jpeg')
     n += 1
 pygame.quit()

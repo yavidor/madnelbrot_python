@@ -43,7 +43,6 @@ finish = True
 screen.fill((0, 0, 0))
 clock = pygame.time.Clock()
 px_array = pygame.PixelArray(screen)
-pd.DataFrame(px_array).to_csv('file.csv')
 n = 1
 # px_array[:] = mandelbrot(px_array, n)
 # pygame.display.flip()
